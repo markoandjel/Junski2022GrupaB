@@ -1,0 +1,86 @@
+.divZaProdavnicu
+{
+    border: 1px solid black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.divZaFiltere
+{
+    width: 300px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.divZaLabele, .divZaOpcije{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.divZaOpcije, .divZaOpcije select
+{
+    padding-left: 10px;
+    width: 100%;
+}
+
+.FilterLabela, .divZaOpcije select
+{
+    margin-bottom: 5px;
+}
+
+.tataFiltera{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.divZaAutomobile
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divZaPrikaz{
+    display: flex;
+    
+}
+
+.divZaAuto{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.divZaNaruci{
+    height: 100%;
+    width:40%;
+    display: flex;
+    align-self: center;
+    justify-self: flex-end;
+    justify-content: center;
+}
+
+.buttonNaruci{
+    height: fit-content;
+    
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    font-size: xx-small;
+}
+
+.divZaPodatke
+{
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+}
